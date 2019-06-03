@@ -1,0 +1,19 @@
+<div class="parent">
+  <div class="headingdiv">
+    <h1 class='heading'>Welcome!</h1>
+    <hr class="horizontal_rule">
+  </div>
+  <div class="inputdiv">
+    <input class="input" type="text" placeholder="type here">
+  </div>
+      <div class="chartdiv" >
+          <h3 class="charttitle">Sentimental Analysis</h3>
+      <canvas class="chart"  baseChart
+                    [data]="demodoughnutChartData"
+                    [labels]="doughnutChartLabels"
+                    [chartType]="doughnutChartType"
+                    (chartHover)="chartHovered($event)"
+                    (chartClick)="chartClicked($event)">
+                  </canvas>
+      </div>
+</div>

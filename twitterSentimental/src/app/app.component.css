@@ -1,0 +1,55 @@
+.parent{
+    background: rgb(102, 204, 255);
+    flex-direction: column;
+    padding: 1%;
+}
+.headingdiv{
+    flex:1;
+    height: 60%;
+    padding: 0%
+}
+.heading{
+color:white;
+text-align: center;
+}
+.horizontal_rule{
+    color:white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+.input{
+    align-items: center;
+    align-self: center;
+    height: -5%;
+    width:20%;
+    text-emphasis-color: rgb(102, 204, 255);
+    padding: 1%;
+    border-width: 1px;
+    border-radius: 20px;
+    border-color: white;
+}
+::placeholder {
+    color: rgb(102, 204, 255);
+    opacity: 1; 
+    text-align: center;
+  }
+.inputdiv{
+    text-align: center;
+    border-bottom-color: white;
+    padding: 1%;
+
+}
+input, select, textarea{
+    color:rgb(102, 204, 255);
+}
+.chartdiv{
+    align-self: center;
+    height:60%;
+    width:60%;
+    margin-left: 20%;
+}
+.charttitle{
+    text-align: center;
+    color: white
+}
